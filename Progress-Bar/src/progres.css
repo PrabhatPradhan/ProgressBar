@@ -1,0 +1,24 @@
+
+  .progres-contenar{
+  position: relative; /* with scale */
+  height: 30px;
+  width: 600px;
+  background-color: rgb(233, 236, 239);
+  border: 1px solid #c5c5c5;
+  border-radius: 15px;
+  overflow: hidden;
+  }
+
+  .progres-contenar span{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+  }
+  .progres-contenar div{
+
+    background-color: rgb(244, 238, 113);
+    text-align: center;
+  }
